@@ -1,72 +1,68 @@
-
-*{
-  box-sizing:border-box;
-  font-family: "Comic Sans MS", sans-serif;
+body {
+    font-size: 15px;
+    font-family: cursive;
 }
 
-p{
-  font-size: 100%;
+#header-nav {
+    background-color: #969696;
+    border-radius: 0;
+    border: 0;
 }
 
-h1 {
-  margin-top: 30px;
-  font-size: 175%;
-  width: 100%;
-  text-align: center;
+#header-nav button {
+    margin-top: 100px;
 }
 
-div{
-  float:left;
+.navbar-collapse {
+    border-top: 0;
 }
 
-section{
-  margin:15px;
-  border: 1px solid black;
-  position: relative;
-  padding: 20px 20px 10px 20px;
-  background-color: #a6a6a6;
+.navbar-brand, .navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
 }
 
-
-section>h2{
-  font-size: 125%;
-  border: 1px solid black;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  margin: 0px;
+.navbar-brand h1 {
+    color: #000000;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
 }
 
-#chicken {
-  background-color: #ff9999;
-}
-#beef {
-  background-color: #b30000;
-  color: white;
-}
-#sushi{
-  background-color: #fff0b3;
+#nav-list {
+    background-color: #ffffff;
 }
 
-@media (min-width:992px){
-  .col-lg-4{
-    width: 33.33%;
-  }
+#nav-list a {
+    font-weight: bolder;
+    color: #000000;
+    font-size: 1.2em;
+    font-family: cursive;
+    border: 2px #000000;
 }
 
-@media (min-width:768px) and (max-width:991px){
-  .col-md-6{
-      width: 50%;
-  }
-  .col-md-12{
+#main-content {
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
     width: 100%;
-  }
-}
-
-@media (max-width:767px){
-  .col-md-12{
-      width: 100%;
-  }
+    padding: 20px;
+    background-color: #969696;
+    margin-bottom: 60px;
 }
